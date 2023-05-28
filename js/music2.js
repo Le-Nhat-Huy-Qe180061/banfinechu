@@ -19,7 +19,7 @@ window.addEventListener("load", ()=>{
 });
 
 function loadData(indexValue){
-  musicName.innerHTML= songs[indexValue - 1].nhactanso.mp3;
+  musicName.innerHTML= songs[indexValue - 1].nhacchill.mp3;
   musicArtist.innerHTML = songs[indexValue - 1].artist;
   Playimage.src = "images/"+songs[indexValue - 1].img+".jpg";
   Audio.src = "music/"+songs[indexValue - 1].nhacchill.mp3+".mp3";
